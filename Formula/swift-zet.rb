@@ -9,6 +9,7 @@ class SwiftZet < Formula
 
   def install
     system "make", "install", "prefix=#{prefix}"
+    (zsh_completion/"_zet").write `#{bin}/zet --generate-completion-script zsh`
   end
 
   test do
