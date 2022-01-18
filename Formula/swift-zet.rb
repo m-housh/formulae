@@ -2,7 +2,7 @@ class SwiftZet < Formula
   desc "A command line tool for managing Zettelkasten repositories."
   homepage "https://github.com/m-housh/swift-zet"
   url "https://github.com/m-housh/swift-zet.git",
-      tag: "0.1.1", revision: "bdc55fe59317a59177677d28ba36d5de8c9e0c70"
+      tag: "0.1.2", revision: "f39caf15b7bdef860e2a9799ee26d5e5557d71c7"
   head "https://github.com/m-housh/swift-zet.git"
 
   depends_on xcode: ["10.15", :build]
