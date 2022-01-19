@@ -3,7 +3,7 @@ class SwiftZet < Formula
   homepage "https://github.com/m-housh/swift-zet"
   url "https://github.com/m-housh/swift-zet.git", :branch => "main"
   head "https://github.com/m-housh/swift-zet.git"
-  version "0.2.0"
+  version "0.2.1"
 
   depends_on xcode: ["10.15", :build]
 
