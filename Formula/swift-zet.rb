@@ -1,7 +1,7 @@
 class SwiftZet < Formula
   desc "A command line tool for managing Zettelkasten repositories."
   homepage "https://github.com/m-housh/swift-zet"
-  url "https://github.com/m-housh/swift-zet.git", tag: "0.3.0", revision: ""
+  url "https://github.com/m-housh/swift-zet.git", tag: "0.3.6", revision: "c716f9b33f2c9780292351a2e1afecade5808a6b"
 
   license "Apache-2.0"
 
