@@ -5,11 +5,7 @@ class SwiftZet < Formula
 
   license: "Apache-2.0"
 
-  bottle do
-    root_url "https://github.com/m-housh/swift-zet/releases/download/0.3.0"
-    rebuild 1
-    sha256 cellar: any, big_sur: ""
-  end
+  
 
   head "https://github.com/m-housh/swift-zet.git", shallow: false
 
