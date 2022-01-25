@@ -3,9 +3,9 @@ class SwiftZet < Formula
   homepage "https://github.com/m-housh/swift-zet"
   url "https://github.com/m-housh/swift-zet.git", tag: "0.3.0", revision: ""
 
-  license: "Apache-2.0"
+  license "Apache-2.0"
 
-  
+
 
   head "https://github.com/m-housh/swift-zet.git", shallow: false
 
