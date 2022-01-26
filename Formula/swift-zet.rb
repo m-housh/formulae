@@ -7,12 +7,13 @@ class SwiftZet < Formula
 
     bottle do
       root_url "https://github.com/m-housh/swift-zet/releases/download/0.3.10"
-      rebuild 1
+      rebuild 2
       sha256 cellar: :any, big_sur: "58d9a47881b2605f88fffcbaf0151e7df3e165be2ddf50c49ca96acc7a74fe40"
+      sha256 cellar: :any_skip_relocation, arm64_monterey: "3b15d02ced305aa84d54732b891ea330a64160530936e4a43fa0aee18c3284e4"
     end
 
 
-    
+
 
 
 
