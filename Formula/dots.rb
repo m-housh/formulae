@@ -1,7 +1,7 @@
 class Dots < Formula
   desc "A command line tool for managing my dotfiles."
   homepage "https://github.com/m-housh/dots"
-  url "https://github.com/m-housh/dots.git"
+  url "https://github.com/m-housh/dots.git", branch: "main"
   version "0.0.1"
   sha256 ""
   license "Apache-2.0"
