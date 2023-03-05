@@ -12,7 +12,7 @@ class Dots < Formula
     system "make", "install", "PREFIX=#{prefix}"
     (bash_completion/"dots").write `#{bin}/dots --generate-completion-script bash`
     (fish_completion/"dots").write `#{bin}/dots --generate-completion-script fish`
-    (zsh_completions/"dots").write `#{bin}/dots --generate-completion-script zsh`
+    (zsh_completion/"dots").write `#{bin}/dots --generate-completion-script zsh`
   end
 
   test do
