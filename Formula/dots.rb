@@ -19,9 +19,4 @@ class Dots < Formula
     system "#{bin}/dots" "--version"
   end
 
-  bottle do
-    root_url "https://github.com/m-housh/dots/releases/download/0.0.1"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "bcbe519fa301ba54d2670cc7ca0e829529f32ee0a4d8552ab8ef2142858743f9"
-  end
 end
