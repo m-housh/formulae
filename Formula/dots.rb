@@ -3,15 +3,14 @@ class Dots < Formula
   homepage "https://github.com/m-housh/dots"
   url "https://github.com/m-housh/dots.git", branch: "main"
   version "0.0.1"
-  sha256 ""
-  license "Apache-2.0"
+  license ""
 
   depends_on xcode: ["12", :build]
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
     (bash_completion/"dots").write `#{bin}/dots --generate-completion-script bash`
-    (fish_completion/"dots").write `#{bin}/dots --generate-completion-script fish`
+    (fish_completion/"dots.fish").write `#{bin}/dots --generate-completion-script fish`
     (zsh_completion/"dots").write `#{bin}/dots --generate-completion-script zsh`
   end
 
