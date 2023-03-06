@@ -2,7 +2,6 @@ class Dots < Formula
   desc "A command line tool for managing my dotfiles"
   homepage "https://github.com/m-housh/dots"
   url "https://github.com/m-housh/dots.git", branch: "main"
-  sha256 "0af03cf512e2e49ffa74bb6ac69ebd8c622504255d5f33cf7ee4da93448dce6e"
   license "MIT"
   version "0.0.3"
 
@@ -16,8 +15,8 @@ class Dots < Formula
   end
 
   bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "e1828b1a6e017bbe8c38bb1f0a41afa08f678f830ce845ee45075fa037deb91d"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "60219fa9a287063456d42f1f761e0d1d760fdeb7246ea45f65511eae0a93cdde"
   end
 
   test do
