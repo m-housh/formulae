@@ -6,7 +6,7 @@ class Dots < Formula
   license "MIT"
   version "0.0.2"
 
-  depends_on xcode: ["12", :build]
+  depends_on xcode: ["14.2", :build]
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
@@ -16,7 +16,8 @@ class Dots < Formula
   end
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "019775692423630f80bbc3957c98d8c820a042abee4fb39d7ca32c6f12efa18d"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "e1828b1a6e017bbe8c38bb1f0a41afa08f678f830ce845ee45075fa037deb91d"
   end
 
   test do
