@@ -9,7 +9,7 @@ class Dots < Formula
   depends_on xcode: ["12", :build]
 
   def install
-    system "make" "install" "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
     (bash_completion/"dots").write `#{bin}/dots --generate-completion-script bash`
     (fish_completion/"dots.fish").write `#{bin}/dots --generate-completion-script fish`
     (zsh_completion/"dots").write `#{bin}/dots --generate-completion-script zsh`
