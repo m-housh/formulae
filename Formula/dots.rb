@@ -4,7 +4,7 @@ class Dots < Formula
   url "https://github.com/m-housh/dots.git", branch: "main"
   sha256 "0af03cf512e2e49ffa74bb6ac69ebd8c622504255d5f33cf7ee4da93448dce6e"
   license "MIT"
-  version "0.0.1"
+  version "0.0.2"
 
   depends_on xcode: ["12", :build]
 
@@ -16,7 +16,7 @@ class Dots < Formula
   end
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "0af03cf512e2e49ffa74bb6ac69ebd8c622504255d5f33cf7ee4da93448dce6e"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "019775692423630f80bbc3957c98d8c820a042abee4fb39d7ca32c6f12efa18d"
   end
 
   test do
