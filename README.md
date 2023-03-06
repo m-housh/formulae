@@ -1,4 +1,4 @@
-# homebrew-formulae
+# homebrew-formula
 
 Repository for homebrew fromula that I've created.
 
