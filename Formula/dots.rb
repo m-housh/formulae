@@ -3,7 +3,7 @@ class Dots < Formula
   homepage "https://github.com/m-housh/dots"
   url "https://github.com/m-housh/dots.git", branch: "main"
   sha256 "0af03cf512e2e49ffa74bb6ac69ebd8c622504255d5f33cf7ee4da93448dce6e"
-  license ""
+  license "MIT"
   version "0.0.1"
 
   depends_on xcode: ["12", :build]
