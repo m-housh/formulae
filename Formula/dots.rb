@@ -1,5 +1,5 @@
 class Dots < Formula
-  desc "A command line tool for managing my dotfiles"
+  desc "Command-line tool for managing my dotfiles"
   homepage "https://github.com/m-housh/dots"
   url "https://github.com/m-housh/dots.git", branch: "main"
   license "MIT"
