@@ -2,8 +2,12 @@ class Dots < Formula
   desc "Command-line tool for managing my dotfiles"
   homepage "https://github.com/m-housh/dots"
   url "https://github.com/m-housh/dots.git", branch: "main"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
+
+  bottle do
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "9da71760641d051eeea226f0b18beda0df3b5f9236c511dacdcd4a7437ab3468"
+  end
 
   depends_on xcode: ["14.2", :build]
 
