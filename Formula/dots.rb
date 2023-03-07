@@ -6,6 +6,7 @@ class Dots < Formula
   license "MIT"
 
   bottle do
+    root_url "https://github.com/m-housh/dots/releases/download/0.0.7"
     sha256 cellar: :any_skip_relocation, arm64_ventura: "9da71760641d051eeea226f0b18beda0df3b5f9236c511dacdcd4a7437ab3468"
   end
 
